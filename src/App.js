@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 
@@ -10,12 +9,12 @@ function App() {
           <h1>夏色まつり</h1>
         </header>
         
-        <div class="contents-item">
-            <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/06/matsuri_pr-img_2-768x1152.png" />
+        <div className="contents-item">
+            <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/06/matsuri_pr-img_2-768x1152.png" alt="" />
             <p>まつりちゃん(通常衣装)</p>
           </div>
-          <div class="contents-item">
-            <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/06/Natsuiro-Matsuri_pr-img_08.png" />
+          <div className="contents-item">
+            <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/06/Natsuiro-Matsuri_pr-img_08.png"  alt="" />
             <p>まつりちゃん(大人衣装)</p>
           </div>
         <a
@@ -29,16 +28,17 @@ function App() {
           <h1>
             夏色まつり
           </h1>
-          <h5>
+          <h4>
             ホロライブ1期生の自称清楚担当。<br/>
             チア部の新入生。<br/>
             上記で書いたように清楚担当であると<br/>
             本人は自称しているが<br/>
             ホロライブプロダクションに所属する<br/>
-            バーチャルYouTuberから「夏色よりひどいことをしなければ大丈夫」と評され、ボーダーラインとして<br/>
-            
-            <k>『まつりライン』</k>というものが存在する。
-             </h5>
+            バーチャルYouTuberから「夏色よりひどいことをしなければ大丈夫」と評され、<br/>
+            ボーダーラインとして<br/>
+
+            <font>『まつりライン』</font>というものが存在する。
+             </h4>
              
       </div>
        <a href="https://www.youtube.com/@NatsuiroMatsuri">youtube</a>
@@ -54,7 +54,7 @@ function App() {
        
         </div>
         <footer>
-        <a href="https://shop.hololivepro.com/pages/search-results-page?q=%E5%A4%8F%E8%89%B2%E3%81%BE%E3%81%A4%E3%82%8A"><h2>公式ショップ</h2></a>
+        <a href="https://shop.hololivepro.com/pages/search-results-page?q=%E5%A4%8F%E8%89%B2%E3%81%BE%E3%81%A4%E3%82%8A"><h4>公式ショップ</h4></a>
         </footer>
     
     </div>
