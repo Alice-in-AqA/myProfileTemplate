@@ -5,40 +5,63 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          このサイトはAlice_in_AqAによる自己紹介サイトである。
-        </p>
+      <header class="header">
+        <header>
+          <h1>夏色まつり</h1>
+        </header>
+        
+        <div class="contents-item">
+            <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/06/matsuri_pr-img_2-768x1152.png" />
+            <p>まつりちゃん(通常衣装)</p>
+          </div>
+          <div class="contents-item">
+            <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/06/Natsuiro-Matsuri_pr-img_08.png" />
+            <p>まつりちゃん(大人衣装)</p>
+          </div>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://hololive.hololivepro.com/talents/natsuiro-matsuri/"
           target="_blank"
           rel="noopener noreferrer"
         >
+          </a>
           <div class="名前">
-          <h1>浅井　響太</h1>
-          <h3>自称まつリス</h3>
+          <h1>
+            夏色まつり
+          </h1>
+          <h5>
+            ホロライブ1期生の自称清楚担当。<br/>
+            チア部の新入生。<br/>
+            上記で書いたように清楚担当であると<br/>
+            本人は自称しているが<br/>
+            ホロライブプロダクションに所属する<br/>
+            バーチャルYouTuberから「夏色よりひどいことをしなければ大丈夫」と評され、ボーダーラインとして<br/>
+            
+            <k>『まつりライン』</k>というものが存在する。
+             </h5>
+             
       </div>
-        </a>
+       <a href="https://www.youtube.com/@NatsuiroMatsuri">youtube</a>
+      <span class="blank_space"></span>
+       <a href="https://twitter.com/natsuiromatsuri">X</a>
       </header>
-      <div class="About-me">
-        <h2>私について</h2>
-        <h4 class="年齢">年齢</h4>
-        <p>20</p>
-        <h4 class="職業">職業</h4>
-         <p>ポケモントレーナー（嫁ポケ　パチリス）</p> 
-        <h4 class="大学名">大学名</h4>
-        <p>桃山学院大学</p>
-        <h4>所属</h4>
-        <p>社会学部　社会学科</p>
-        <h4 class="趣味">趣味</h4>
-        <p>ゲーム、読書、睡眠</p>
+      <div class="header">
+      <div>
+      <h4 class="誕生日">誕生日<span class="blank_space"></span>7月22日</h4>
+        <h4 class="イラストレーター">イラストレーター<span class="blank_space"></span>皆村春希</h4>
+        <h4 class="ファンネーム">ファンネーム<span class="blank_space"></span>まつりす</h4> 
+        <h4 class="ファンアート">ファンアートタグ<span class="blank_space"></span>祭絵</h4>
+       
+        </div>
+        <footer>
+        <a href="https://shop.hololivepro.com/pages/search-results-page?q=%E5%A4%8F%E8%89%B2%E3%81%BE%E3%81%A4%E3%82%8A"><h2>公式ショップ</h2></a>
+        </footer>
     
     </div>
 
     </div>
   );
 }
+
 
 export default App;
